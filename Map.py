@@ -31,7 +31,7 @@ def home():
     return "Hello, Flask!"
 
 # Load the updated GeoJSON data
-with open('sorted_data1.geojson') as f:
+with open('sorted_data1.geojson',encoding='UTF-8') as f:
     geojson_data = json.load(f)
 
 # Load the dataset
